@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="ie=edge" http-equiv="x-ua-compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+
+  <title>Bootstrap 4 lesson</title>
+  
+
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Articles
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Travelling</a>
+              <a class="dropdown-item" href="#">Packing</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Equipment</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header d-flex flex-column justify-content-center">
+    <h1 class="display-2">Travelling is in my soul</h1>
+    <p class="lead">
+      This site is about travelling, packing and choosing equipment for camping trips
+    </p>
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <div class="card mb-4">
+            <img class="card-img-top" src="https://media.nomadicmatt.com/nomadicmattabout.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nomadic Matt</h5>
+              <p class="card-text">New York Times best-selling author of How to Travel the World on $50 a Day and founder of this site. Each month over 1,000,000 people use my advice to travel better, cheaper, and longer. </p>
+              <a href="https://www.nomadicmatt.com/about-matt/" target="_blank" class="btn btn-outline-warning">About Matt</a>
+            </div>
+          </div>
+          <h3>Subscribe</h3>
+          <div class="block">
+            <form action="" method="post" >
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <button type="submit" class="btn btn-secondary btn-block">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card mb-4">
+            <img class="card-img-top" src="img/photo-1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">How Staci Didn’t Let a Rare Medical Condition Prevent Her From Seeing The World</h5>
+              <p class="card-text"><small class="text-muted">Last updated February 6, 2018</small></p>
+              <p class="card-text">Staci was born with the rare medical condition known as Nager Syndrome. One consequence of Nager Syndrome is deafness, yet Staci has refused to let her condition interfere with her dreams of seeing the world. In this inspiring reader interview, Staci shares how she overcomes the obstacles in her way and manages to travel the world!</p>
+              <a href="https://www.nomadicmatt.com/travel-blogs/staci-nager-syndrome-interview/" class="btn btn-outline-secondary btn-sm" target="_blank" title="https://www.nomadicmatt.com/about-matt/icons/">Read more</a>
+            </div>
+          </div>
+          <div class="card mb-4">
+            <img class="card-img-top" src="img/photo-2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Memories</h5>
+              <p class="card-text"><small class="text-muted">Last updated January 25, 2018</small></p>
+              <p class="card-text">Spurred by the writing of my next book about my years on the road, I find myself wandering the halls of memory reminiscing about my last decade of travel. I dig through old photos and journal entries. I search Facebook for people I met years ago. Stories and faces long forgotten zoom back into my mind as I wonder where they are and what they are doing.</p>
+              <a href="https://www.nomadicmatt.com/travel-blogs/travel-memories/" class="btn btn-outline-secondary btn-sm" target="_blank" title="https://www.nomadicmatt.com/travel-blogs/travel-memories/">Read more</a>
+            </div>
+          </div>
+          <div class="card mb-4">
+            <img class="card-img-top" src="img/photo-3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">How to Use Your Social Network to Travel the World</h5>
+              <p class="card-text"><small class="text-muted">Last updated January 18, 2018</small></p>
+              <p class="card-text">One of my favorite websites is Couchsurfing. This website allows you to connect with locals abroad and get a place to stay, a friend to show you around, and local information. I remember I used it when I was first traveling and stayed at this lovely home in Athens. I’ve grown to love it even more since they have a “who’s nearby” feature on their app, which I heavily used in France last year.</p>
+              <a href="https://www.nomadicmatt.com/travel-blogs/social-network-travel/" class="btn btn-outline-secondary btn-sm" target="_blank" title="https://www.nomadicmatt.com/travel-blogs/social-network-travel/">Read more</a>
+            </div>
+          </div>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item active"><a class="page-link" href="#">1<span class="sr-only">(current)</span></a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-3">
+          <div class="list-group mb-4">
+            <a href="#" class="list-group-item list-group-item-action active">
+              About Us
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">Community</a>
+            <a href="#" class="list-group-item list-group-item-action">Travel Tips</a>
+            <a href="#" class="list-group-item list-group-item-action">Media School</a>
+            <a href="#" class="list-group-item list-group-item-action">Book Your Trip</a>
+          </div>
+          <h3>Tag cloud</h3>
+          <div class="block">
+            <a href="#" class="badge badge-secondary">Trip</a>
+            <a href="#" class="badge badge-secondary">Travel gear</a>
+            <a href="#" class="badge badge-secondary">Travel tips</a>
+            <a href="#" class="badge badge-secondary">Unusual places</a>
+            <a href="#" class="badge badge-secondary">Interviews</a>
+            <a href="#" class="badge badge-secondary">Africa</a>
+            <a href="#" class="badge badge-secondary">America</a>
+            <a href="#" class="badge badge-secondary">Europe</a>
+            <a href="#" class="badge badge-secondary">Asia</a>
+            <a href="#" class="badge badge-secondary">Australua</a>
+          </div>
+          <h3>Gallery</h3>
+          <div class="block">
+            <div class="row no-gutters">
+              <div class="col-6">
+                <img class="img-fluid" src="img/gallery-1.jpg" alt="">
+              </div>
+              <div class="col-6">
+                <img class="img-fluid" src="img/gallery-2.jpg" alt="">
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-6">
+                <img class="img-fluid" src="img/gallery-3.jpg" alt="">
+              </div>
+              <div class="col-6">
+                <img class="img-fluid" src="img/gallery-4.jpg" alt="">
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-6">
+                <img class="img-fluid" src="img/gallery-5.jpg" alt="">
+              </div>
+              <div class="col-6">
+                <img class="img-fluid" src="img/gallery-6.jpg" alt="">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <h3>Traveller blog</h3>
+          <p>
+            It can be hard to know where to start when planning your dream trip. What’s the first step? What’s the second? Third? Fourth? Travel can seem like a daunting subject with so much information available and, the longer you go away, the more things you seem to have to think about. I want to make planning your next gap year, family vacation, round the world, or backpacking trip simple and easy.
+          </p>
+        </div>
+        <div class="col-4">
+          <h3>Contacts</h3>
+          <address>
+            <b>Nomadic Matt, Inc</b> <br> 
+            PO Box 2791 <br>
+            Stamford, CT USA 06906-0791
+          </address>
+        </div>
+        <div class="col-4">
+          <h3>Navigation</h3>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright">
+    <div class="container">
+      <img src="img/logo.png" alt="">
+      <div>
+        Thanks for texts and links to <br>
+        Copyright © 2018 · Nomadic Matt’s Travel Site <br>
+        https://www.nomadicmatt.com/
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.min.js"></script>
+</body>
+</html>
