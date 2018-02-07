@@ -11,8 +11,7 @@ _arc/
 *.zip
 *.psd
 *.editorconfig
-*.json
-gulpfile.js
+
 .idea
 .publish
 ex_files
